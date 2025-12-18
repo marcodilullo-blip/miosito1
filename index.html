@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Studente - Esercizio CSS</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <header id="header">
+        <h1>Portfolio di Mario Rossi</h1>
+        <p class="sottotitolo">Studente di Informatica - 4° ITT</p>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduzione</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introduzione</h2>
+            <p>
+                Sono uno studente appassionato di programmazione, reti e sicurezza informatica.
+                In questa pagina trovi alcuni dei miei progetti scolastici.
+            </p>
+            <p class="evidenzia">
+                Obiettivo: diventare sviluppatore full-stack e continuare a studiare nuove tecnologie.
+            </p>
+        </section>
+
+        <section id="progetti">
+            <h2>I miei progetti</h2>
+
+            <article class="progetto evidenzia-bordo">
+                <h3>Gestione Libreria</h3>
+                <p class="descrizione">
+                    Applicazione Java per la gestione dei prestiti di una biblioteca scolastica.
+                </p>
+                <ul class="tag-list">
+                    <li class="tag">Java</li>
+                    <li class="tag importante">OOP</li>
+                    <li class="tag">MySQL</li>
+                </ul>
+            </article>
+
+            <article class="progetto">
+                <h3>Sito Web Personale</h3>
+                <p class="descrizione">
+                    Un semplice sito statico realizzato con HTML e CSS per presentare il mio curriculum.
+                </p>
+                <ul class="tag-list">
+                    <li class="tag">HTML</li>
+                    <li class="tag">CSS</li>
+                    <li class="tag importante">Responsive</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <p>
+                Puoi contattarmi via email oppure visitare il mio profilo GitHub:
+            </p>
+            <ul>
+                <li>Email: <a href="mailto:mario.rossi@example.com">mario.rossi@example.com</a></li>
+                <li>GitHub: <a href="https://github.com/mariorossi" target="_blank">github.com/mariorossi</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p class="note-fine">
+            Pagina creata come esercitazione di laboratorio CSS - 4° ITT Informatica
+        </p>
+    </footer>
+
+</body>
+</html>
